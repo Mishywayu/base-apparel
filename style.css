@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans';
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 60px 160px;
+    background-image: url(./bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.left h1 {
+    font-weight: 600;
+    font-size: 65px;
+    margin-top: 90px;
+    line-height: 70px;
+    letter-spacing: 8px;
+}
+
+.left span {
+    font-weight: 300;
+    color: #c08080;
+}
+
+.left p {
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #c08080;
+}
+
+.email-input {
+    display: flex;
+}
+
+.left input {
+    /* float: left; */
+    margin-top: 30px;
+    width: 33vw;
+    padding: 15px 25px;
+    border: 1px solid #c08080;
+    border-radius: 25px;
+}
+
+::placeholder {
+    color: #e9b59e;
+    opacity: 1;
+}
+
+button {
+    float: right;
+    width: 18%;
+    margin-top: 30px;
+    padding: 15px 25px;
+    margin-left: -40px;
+    /* border: 2px solid red; */
+    border-radius: 26px;
+    font-size: 20px;
+    background: transparent;
+}
+
+.right {
+    width: 40%;
+    height: 100vh;
+    float: right;
+    background-image: url(./hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
