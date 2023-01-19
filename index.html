@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
     <title>Base Apparel</title>
 </head>
 
@@ -24,12 +25,15 @@
             <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
                 up-to-date with annuncements and our launch deals.</p>
 
-            <div class="email-input">
-                <input type="text" placeholder="Email Address">
-                <button>></button>
-            </div>
-
+            <form class="email-input" name="form" action="#" onsubmit="checkEmail()">
+                <!-- <input type="text" name="email" id="txtEmail" placeholder="Email Address" required> -->
+                <input id="subscribe-email" type="email" required="required" placeholder="Email Address" />
+                <!-- <button type="submit" name="submit" onclick='checkEmail()'>></button> -->
+                <button type="submit" id="subscribe-submit" onClick="check()">></button>
+            </form>
+            <p class="errmsg" id="p1"></p>
         </div>
+
         <div class="right"></div>
     </div>
 </body>

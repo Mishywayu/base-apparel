@@ -67,10 +67,16 @@ button {
     margin-top: 30px;
     padding: 15px 25px;
     margin-left: -40px;
-    /* border: 2px solid red; */
+    border: 2px solid rgb(206, 151, 151);
     border-radius: 26px;
     font-size: 20px;
-    background: transparent;
+    background-color: rgb(206, 151, 151);
+    color: white;
+}
+
+.errmsg {
+    font-size: 11px;
+    color: red !important;
 }
 
 .right {
@@ -82,3 +88,4 @@ button {
     background-position: center;
     background-size: cover;
 }
+
